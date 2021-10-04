@@ -18,10 +18,10 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php
-print('playback');
-print("I'm studying \"PHP\"");
-?>
+  <?php
+  date_default_timezone_set(('Asia/Tokyo'));
+    print('現在は' . date('G時 i分 s秒'). 'です');
+  ?>
 </pre>
 </main>
 </body>    

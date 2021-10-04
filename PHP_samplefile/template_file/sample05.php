@@ -18,10 +18,9 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php
-print('playback');
-print("I'm studying \"PHP\"");
-?>
+<?php $sum = 100 + 1050 + 200; ?>
+合計金額は: <?php print($sum); ?>円です。
+税込み価格は: <?php print($sum * 1.08); ?>円です。
 </pre>
 </main>
 </body>    

@@ -19,8 +19,8 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print('playback');
-print("I'm studying \"PHP\"");
+$today = new Datetime();
+print($today -> format('G時 i分 s秒'));
 ?>
 </pre>
 </main>
