@@ -19,7 +19,8 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print((123+2)*5/3);
+$today = new Datetime();
+print($today -> format('G時 i分 s秒'));
 ?>
 </pre>
 </main>
