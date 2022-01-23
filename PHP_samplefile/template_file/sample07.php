@@ -18,7 +18,13 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<!-- ここにプログラムを記述します -->
+<?php
+for ($i = 1; $i <= 365; $i++){
+	$date = strtotime('+'. $i .'day');
+	print(date('n/j(D)', $date));
+	print("\n");
+}
+?>
 </pre>
 </main>
 </body>    
