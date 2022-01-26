@@ -16,7 +16,8 @@
 		<!--<h2>Practice</h2>-->
 	<pre>
 	<?php
-	echo 123 + 2 * 5 / 3;
+	date_default_timezone_set('Asia/Tokyo');
+	echo '現在は、' . date('G時 i分 s秒') . 'です。';
 	?>
 	</pre>
 	</main>
