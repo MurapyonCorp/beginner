@@ -8,17 +8,21 @@
 	<title>PHP</title>
 </head>
 <body>
-	<header>
-		<!--<h1 class="font-weight-normal">PHP</h1>    -->
-	</header>
+<header>
+	<!--<h1 class="font-weight-normal">PHP</h1>    -->
+</header>
 
-	<main>
-		<!--<h2>Practice</h2>-->
-	<pre>
-	<?php
-	echo 'PHPを勉強中です';
-	?>
-	</pre>
-	</main>
+<main>
+	<!--<h2>Practice</h2>-->
+<pre>
+<?php
+$i = 1;
+while($i < 366){
+	echo $i. "日\n";
+	$i += 1;
+}
+?>
+</pre>
+</main>
 </body>
 </html>
