@@ -16,8 +16,10 @@
 		<!--<h2>Practice</h2>-->
 	<pre>
 	<?php
-	
+	$sum = 156 + 892 + 40981;
 	?>
+	<p>合計金額は、<?php echo $sum; ?>円です</p>
+	<p>税込金額は、<?php echo $sum * 1.1; ?>円です</p>
 	</pre>
 	</main>
 </body>
