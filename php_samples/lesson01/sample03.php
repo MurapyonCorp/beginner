@@ -16,7 +16,7 @@
 		<!--<h2>Practice</h2>-->
 	<pre>
 	<?php
-	echo 'I\'m studying';
+	echo 123 + 2 * 5 / 3;
 	?>
 	</pre>
 	</main>
