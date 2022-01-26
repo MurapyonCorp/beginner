@@ -16,8 +16,11 @@
 	<!--<h2>Practice</h2>-->
 <pre>
 <?php
-for ($i = 1; $i < 366; $i++){
-	echo $i. "\n";
+date_default_timezone_set('Asia/Tokyo');
+for ($i = 0; $i < 366; $i++){
+	$time = strtotime("+ {$i} day");
+	$day = date('n/j(D)', $time);
+	echo $day. "\n";
 }
 ?>
 </pre>
