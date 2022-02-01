@@ -16,12 +16,20 @@
 	<!--<h2>Practice</h2>-->
 <pre>
 <?php
-$week_name = ['日', '月', '火', '水', '木', '金', '土'];
-
-date_default_timezone_set('Asia/Tokyo');
-$week = date('w');
-echo "今日は、$week_name[$week]曜日です";
+$fruits = [
+	'apple' => 'りんご',
+	'grape' => 'ぶどう',
+	'lemon' => 'レモン',
+	'tomato' => 'トマト',
+	'peach' => 'もも'
+];
 ?>
+<dl>
+	<?php foreach ($fruits as $english => $japanese) {
+		echo "<bt> $english </bt>";
+		echo "<bb> $japanese </bb>";
+	}?>
+</dl>
 </pre>
 </main>
 </body>
