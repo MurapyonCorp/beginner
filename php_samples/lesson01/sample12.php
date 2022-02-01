@@ -16,7 +16,13 @@
 	<!--<h2>Practice</h2>-->
 <pre>
 <?php
-
+date_default_timezone_set('Asia/Tokyo');
+$time = date('G');
+if ($time < 9) {
+	echo "<p>※ 営業時間外です</p>";
+} else {
+	echo "<p>ようこそ</p>";
+}
 ?>
 </pre>
 </main>
