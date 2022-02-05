@@ -16,7 +16,8 @@
 	<!--<h2>Practice</h2>-->
 <pre>
 <?php
-
+$date = sprintf("%04d.%02d.%02d", 2021, 2, 5);
+echo $date
 ?>
 </pre>
 </main>
