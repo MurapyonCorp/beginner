@@ -16,7 +16,12 @@
 	<!--<h2>Practice</h2>-->
 <pre>
 <?php
+$news = file_get_contents("data/news.txt");
+echo $news;
 
+// ファイルの追記
+$news = $news. "\n 追加のニュースです";
+$success = file_put_contents("data/news.txt", $news);
 ?>
 </pre>
 </main>
