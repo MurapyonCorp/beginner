@@ -16,7 +16,13 @@
 	<!--<h2>Practice</h2>-->
 <pre>
 <?php
-
+$xmlTree = simplexml_load_file("rss.xml");
+foreach ($xmlTree -> channel -> item as $item) {
+	// echo $item -> title. "\n";
+?>
+・<a href="<?php echo $item -> link; ?>"><?php echo $item -> title; ?></a>
+<?php
+}
 ?>
 </pre>
 </main>
